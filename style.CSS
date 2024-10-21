@@ -1,0 +1,33 @@
+
+body{
+    background-color: black;
+}
+/*estilzamdo o cabeçalho*/
+
+
+
+header{
+    background-color: rgb(34, 2, 2); /*cor de fundo docabeçalho*/
+    color:rgb(255, 255, 255); /*cor das letras*/
+    padding: 15px;/* preenchimento do cabeçalho */
+    text-align:center;/*alinhamento do cabeçalho*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;/*tipode letra*/
+}
+
+article{
+    background-color: rgb(100, 5, 5);
+    font-size: 20px;
+}
+
+.paragrafo1{
+    color:rgb(2, 2, 0);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-indent: 30px;
+    
+}
+
+.paragrafo2{
+    color:aquamarine;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-indent: 30px;
+}

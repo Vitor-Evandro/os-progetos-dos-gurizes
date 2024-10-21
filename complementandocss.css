@@ -1,0 +1,273 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+h2{
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body{
+   /* background-color:rgba(0,21,90,0.2);*/
+   /*fundo com imagem*/
+   background-image:url(data:image/jpeg;base64,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);background-size:cover;
+
+}
+/*classes*/
+.paragraph{
+    background-color:#9DA2AB;
+    color:#54426B;
+    padding:10px;
+}
+/*ids*/
+#exclusive-title{
+    background-color:#191a3c;
+    color:#A24936;
+    padding:10px;
+    font-size:40px;
+}
+/* HEX */
+.simple-hex{
+    color:#AFA5BE;
+
+}
+.simple-hex-2{
+    color:#307473;
+}
+/* RGB */
+.rgb{
+    color:rgb(2,55,25)
+}
+/* HSL */
+.hsl{
+    color: hsl(233,90%,59%)
+}
+.altura-largura{
+    height:100px; /*altura*/
+    width:100px;/*largura*/
+    background-color:#7A6C5D;
+}
+.altura-largura2{
+    height:300px;
+    background-color:#2E4057;
+}
+/*padding*/
+.sem-padding{
+    background-color:#6A8E7F;/*cor de fundo*/
+    color:#ECC8AF/*cor das letras*/
+}
+.esse-tem-padding{
+    background-color:#89A1EF;/*cor de fundo*/
+    color:#DB5375;/*cor das letras*/
+    padding:20px;/*padding(preenchimento*/
+}
+.padding-individual{
+    background-color:#a09da4;
+    color:rgb(67,89,21);
+    padding-top:20px; /*alterando padding no topo*/
+    padding-left:5px; /*alterando padding na esquerda*/
+    padding-right:10px; /*alterando padding da direita*/
+    padding-bottom:40px; /*alterando paddingh abaixo*/
+
+}
+/*shorthand padding*/
+.shorthand-padding{
+    background-color:#E7E5E5;
+    padding:6px 122px 18px 24px; /*aplicando shorthand*/
+
+}
+.shorthand-padding-2{
+    background-color:#857E61;
+    padding:10px 20px;
+}
+.sem-border-box{
+    background-color:#AEE5D8;
+    color:#67597A;
+    width:400px;
+    padding:50px;
+}
+.com-border-box{
+    background-color:#E5D0E3;
+    color:#0A210F;
+    width:400px;
+    padding:50px;
+    box-sizing:border-box;
+}
+.borda-esquerda{
+    border-left:10px #827191 ;
+    background-color: #84ACCE;
+    padding:25px;
+}
+.borda-inferior{
+    border-bottom:25px double #1C2321;
+    background-color:#7D1D3F;
+    padding:20px;
+}
+.borda-arredondada{
+    border:8px solid #D7D9B1;/*8px é a espessura da borda / solid é característica(sólida) / blue é a cor*/
+    background-color: #66999B;
+    color: #26547C;
+    padding:20px;
+    border-radius:20px; /*borda aredondada*/
+}
+.borda-arredondada-2{
+    border:8px solid #26547C; 
+    background-color: #3F0D12;
+    color:#C98BB9;
+    padding:25px;
+    border-radius:15px;
+}
+/*margem*/
+.margem{
+    margin:10px;
+    background-color: #B4C4AE;
+}
+.margem-superior{
+    margin-top:50px;
+    background-color: #58355E;
+    padding:15px;
+}
+.margem-shorthand{
+    background-color: #2F97C1;
+    margin:5px 10px 15px 20; /* 5px é o topo / 10px é na direita / 15px é baixo / 20px é na esquerda*/
+}
+/*alinhando o noss textinho né*/
+.alinhamento-texto{
+    text-align:right ;
+    font-size:20px;
+    color: #3D52D5;
+}
+.container-centro{
+    text-align:center;
+    width:300px;
+    border:20px double #030027;
+}
+/*texto underline*/
+.underline{
+    text-decoration:underline;
+}
+.line-trough{
+    text-decoration: line-through;/*risco*/
+}
+.upper{
+    text-transform:uppercase;/*esse deixa  texto em caixa alta*/
+}
+.lower{
+    text-transform:lowercase;/*texto em caixa baixa 8*/
+}
+.spacing{
+    letter-spacing:10px;
+}
+.italico{
+    font-style:italic;
+}
+.oblique{
+    font-style: oblique;
+}
+.thin{
+    font-weight:600;
+}
+.bold{
+    font-weight: 600;
+}
+.bolder{
+    font-weight: 900;
+}
+/*display*/
+.inline-box{
+    width:50px;
+    height:50px;
+    background-color: #386641;
+    margin:10px;
+    display:inline-block;/*display inline*/
+}
+.block{
+    background-color: #D295BF;
+    display: block;/*display em block*/
+    margin:10px;
+}
+.static{
+    position: static;/*estático*/
+    background-color: #37323E;
+    color:#bd0e54;
+    width:100px;
+    height:100px;
+}
+.relativo{
+    position: relative;
+    background-color: #D295BF;
+    color: #3DD6D0;
+    width:100px;
+    height: 100px;
+    top: 100px;
+    left: 100px;
+}
+/*absoluto com relativo*/
+.container-relativo-absoluto{
+    width:300x;
+    height: 300px;
+    border:1px solid#BEDCFE;
+    margin-top:110px;
+    position: relative;
+}
+.absolute1,
+.absolute2{
+    width:50px;
+     height:50px;
+     background-color: #1A1D0C;
+     position: absolute;
+}
+.absolute1{
+top:10px;
+left:10px;
+}
+.absolute2{
+    bottom:10px ;
+    right:10px;
+}
+/*fixo*/
+.fixo{
+width: 100px;
+height:100px;
+background-color: #30194D;
+border: 2ppx solid #ACCFA0;
+position:fixed;
+top: 50px;
+right: 100px;
+}
+.sticky{
+width: 100px;
+height:100px;
+background-color:#AE76A6 ;
+border:2px solid #757780;
+position: sticky;
+top:10px;
+}
+/*Z index*/
+.absolute-3,
+.absolute-4,
+.absolute-5{
+    width: 50px;
+    height: 50px;
+    background-color: #25040A;
+    position:absolute;
+}
+
+.absolute-3{
+top: 0;
+left: 0;
+z-index: 3;
+}
+.absolute-4{
+    width: 50px;
+    height: 50px;
+    background-color: #DBD4D3;
+    z-index: 20;
+}
+.absolute-5{
+    top:40px;
+    left:40px;
+    background-color: #387780;
+    z-index: 1;
+}

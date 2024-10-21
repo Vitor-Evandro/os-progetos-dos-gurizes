@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gírias de morféticos da galerinha do mal</title>
+     <!--fazendo a camada externa do arquivo JavaEscript-->
+    <script src="logica.js"></script>
+    <!--fazendo a camada de CSS-->
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /*estilizando a página*/
+body{
+    font-family:Georgia'Times New Roman', Times, serif;/*define a fonte ou seja as palavras irão mudar de acordo com a fonte selecionda*/
+    background-color:#E6E6E9;/*cor do nosso fundo*/
+    margin:0; /*remove as margens*/
+    padding:0;/*remove o espaçamento interno*/
+    display:flex;/*utiliza os sistemas de layout flexivel*/
+    justify-content:center;/*centraliza*/
+    align-items:center;/*centraliza o conteúdo vertcalmente*/
+    height:100vh;/*define que altura seja 100% da tela*/
+
+}
+h1{
+    color: aliceblue; /*responsavel pelas cores das palavras e e todo o texto*/
+    text-align: center;/*ele é responsavel pelo movimento das palavras e de todo o nosso texto*/
+}
+input{
+    padding:10px;/*espaçamento interno no campo de texo*/
+    width:45%;/*largura do campo em relação ao container*/
+    margin-bottom:10px;/*espaçamento inferior*/
+    border:1px solid #ccc;/*borda cinza clara*/
+    border-radius:10px;/*borda arredondada*/
+}
+/*estlizandoo nosso button*/
+button{
+    padding:13px;/*espaço interno do botão*/
+    background-color:#333C3D;/*cor do nosso fundo*/
+    border:none;/*tira as linhas em volta do botão*/
+    color:#EFE9AE;/*cor do nosso texto*/
+    border-radius:12px;/*remove a borda padrão*/
+    cursor: pointer;/*muda o cursor para a mãozinha ao passar o botão por cima*/
+}
+/*efeito hover quando passar o mouse sobre o botão*/
+button:hover{
+    background-color:#00120B;
+}
+/*estilizado a área onde as gírias vão se exibidas no nosso site*/
+#resultado{
+    margin-top:15px;/*espaço superior*/
+    font-size:16px;/*tamanho da fonte no nosso texto*/
+    color: #ffffff;/*cor do nosso cinza escuro*/
+}
+/*estilo para cotêiner princial*/
+.container{
+    text-align:center;/*cetraliza o texto dentro do  continer*/
+    background-color:#66666E;/*fund do caontainer*/
+    padding:15px;/*espaçament interno do container*/
+    border-radius:10px;/*borda arrendonada*/
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>bora escrever uma gírias da rapeize</h1>
+    <!--campo d entrada do texto-->
+
+    <input type="text" id="giriasInput" placeholder="insira aqui seu tabacudo">
+     <!--criando o botão que cham a nssa função javaScipt ao ser clicado-->
+
+     <button onclick="adicionandoGiria()">adiciona a sua gíria aqui magrão</button>
+     <!--criando uma área para apare cer os resultados-->
+
+     <div id="resultado"></div>
+
+    </div>
+</body>
+</html>
